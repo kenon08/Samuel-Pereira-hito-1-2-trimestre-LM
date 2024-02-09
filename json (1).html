@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog de Programación</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="json.css">
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blog de Programación</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="xml.html" target="_blank">XML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="json.html" target="_blank">JSONs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <h1>Historia</h1>
+    <p>JSON es un formato más reciente, que surgió a principios de los años 2000. Fue creado como una alternativa más ligera y fácil de usar que XML, especialmente para intercambio de datos en aplicaciones web, y está basado en la sintaxis de los objetos de JavaScript.</p>
+    
+    <h1>Normas de Uso y Sintaxis</h1>
+    <p>JSON utiliza una sintaxis más ligera y menos redundante, basada en pares de clave-valor y arrays. Por ejemplo:</p>
+    <ol>
+        <li>JSON debe estar escrito utilizando sintaxis de objetos y arrays.</li>
+        <li>Las claves (keys) deben estar entre comillas dobles.</li>
+        <li>Los valores de las claves pueden ser strings, números, booleanos, arrays, objetos o null.</li>
+        <li>JSON no permite comentarios dentro del código.</li>
+        <li>El uso de coma (,) es obligatorio entre cada par clave-valor, excepto para el último.</li>
+        <li>Los strings deben estar entre comillas dobles.</li>
+        <li>JSON es independiente del lenguaje de programación y se utiliza principalmente para intercambio de datos.</li>
+        <li>JSON es más ligero y más fácil de analizar que XML.</li>
+        <li>JSON no admite referencias circulares (estructuras recursivas).</li>
+    </ol>
+    <pre>
+        <code>{
+    "libro": {
+        "titulo": "El Señor de los Anillos",
+        "autor": "J.R.R. Tolkien",
+        "fechaPublicacion": "1954"
+            }
+        }</code>
+    </pre>
+
+    <h1>Aplicaciones en el Ámbito Empresarial</h1>
+    <ul>
+        <li>
+            <h2>APIs RESTful:</h2>
+            <p>JSON es el formato de elección para muchas APIs web, especialmente aquellas que siguen el estilo arquitectónico REST. Es fácil de usar en combinación con JavaScript, que es comúnmente utilizado en el desarrollo web.</p>
+        </li>
+        <li>
+            <h2>Almacenamiento de datos:</h2>
+            <p>JSON se utiliza cada vez más como formato de almacenamiento de datos en bases de datos NoSQL, como MongoDB, debido a su flexibilidad y capacidad para representar datos complejos.</p>
+        </li>  
+        <li>
+            <h2>Ejempos</h2>
+            <ol>
+                <li><strong>Intercambio de Datos:</strong> JSON se utiliza para intercambiar datos entre un servidor y un cliente en aplicaciones web y móviles a través de APIs.</li>
+                <li><strong>Almacenamiento de Configuración:</strong> Muchas aplicaciones almacenan su configuración en archivos JSON debido a su legibilidad y facilidad de manejo.</li>
+                <li><strong>Persistencia de Datos:</strong> En muchas aplicaciones, JSON se utiliza para persistir datos en la base de datos, ya sea en su formato original o después de ser convertidos en un formato compatible con la base de datos.</li>
+                <li><strong>Transmisión de Datos en Tiempo Real:</strong> JSON se utiliza en aplicaciones de tiempo real como chats y sistemas de mensajería para transmitir mensajes entre el servidor y el cliente de manera eficiente.</li>
+                <li><strong>Configuración de Servicios Web:</strong> En servicios web, JSON se utiliza para definir la configuración de servicios, parámetros de solicitud y respuestas.</li>
+            </ol>
+            
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

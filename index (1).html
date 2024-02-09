@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programación</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionales */
+        /* Ajustes para el layout */
+        body {
+            background-color: #cfe2f3; /* Cambio de color de fondo */
+        }
+        
+        .sidebar {
+            background-color: #a9c9df ;
+            padding: 20px;
+        }
+        .post {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blog de Programación</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="xml.html" target="_blank">XML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="json.html" target="_blank">JSON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Columna principal -->
+            <div class="col-lg-8">
+                <!-- Artículo XML -->
+                <div class="post">
+                    <h2>XML: Extensible Markup Language</h2>
+                    <p>En este artículo exploramos la historia, normas de uso y sintaxis de XML, así como sus aplicaciones en el ámbito empresarial.</p>
+                    <li><a href="xml.html" target="_blank">Contenido del artículo XML aquí</a></li>
+                </div>
+                
+                <!-- Artículo JSON -->
+                <div class="post">
+                    <h2>JSON: JavaScript Object Notation</h2>
+                    <p>En este artículo exploramos la historia, normas de uso y sintaxis de JSON, así como sus aplicaciones en el ámbito empresarial.</p>
+                     <li><a href="json.html" target="_blank">Contenido del artículo JSON aquí</a></li>
+                </div>
+            </div>
+
+            <!-- Columna lateral -->
+            <div class="col-lg-4">
+                <div class="sidebar">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li>Programación Web</li>
+                        <li>Desarrollo de Aplicaciones</li>
+                        <li>Big Data</li>
+                    </ul>
+                    <h3>Últimos Posts</h3>
+                    <ul>
+                        <li><a href="https://w3schoolsua.github.io/html/index_es.html#gsc.tab=0" target="_blank">Introducción a HTML</a></li>
+                        <li><a href="https://j2logo.com/python/tutorial/introduccion-a-python/" target="_blank">Guía de Instalación de Python</a></li>
+                        <li><a href="https://oliverpuente.com/ui-ux/los-8-principios-del-diseno-ui/" target="_blank">Principios de Diseño de Interfaces</a></li>
+                    </ul>
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/Campus_FP" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/campusfp/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/campusfp_/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
